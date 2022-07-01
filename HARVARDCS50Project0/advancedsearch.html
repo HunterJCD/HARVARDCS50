@@ -9,15 +9,28 @@
 
 </head>
 <body>
-    <form action="https://www.google.com/search" name="as_q">
-       <input type="text" placeholder="Find Results with All These Words" name="as_q">
-       <input  type="Submit" value="Google Search">
-       <input type="text" placeholder="Find Results with this exact word or phrase" name="as_q">
-       <input  type="Submit" value="Google Search">
-       <input type="text" placeholder="Find Results with any of these words" name="as_q">
-       <input type="Submit" value="Google Search">
-       <input type="text" placeholder="Find Results with none of these words" name="as_q">
-       <input type="Submit" value="advanced_search">
+
+    <div id="advancedsearch2"> 
+        <p id="advancedsearch1">Advanced Search</p>
+    
+    <form action="https://www.google.com/search" id="form">
+        
+             <label for="as_q" class="asl"> <p class="paragraph">all these words:</p>
+             <input  type="text" value="" class="advancedsearchinputbox" name="as_q">
+             </label>
+        
+             <label for="as_epq" class="asl"> <p class="paragraph">this exact word or phrase:</p>
+             <input  type="text" value="" class="advancedsearchinputbox" name="as_epq"> </label>
+   
+             <label for="as_oq" class="asl"> <p class="paragraph">some of these words:</p>
+             <input type="text" value="" class="advancedsearchinputbox" name="as_oq"> </label>
+        
+             <label for="as_eq" class="asl"> <p class="paragraph">none of these words:</p>
+             <input type="text" value="" class="advancedsearchinputbox" name="as_eq"> </label>
+             <input type= "submit" value="Advanced Search" id="ducks">
+       
     </form>
+    </div>
+   
 </body>
 </html>

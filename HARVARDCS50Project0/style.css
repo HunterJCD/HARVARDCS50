@@ -1,63 +1,5 @@
 
-
-#images {
-    color: black;
-    height: 48px;
-    z-index: 986;
-    float: right;
-    padding-left: 32px;
-    text-decoration: none;
-    
-}
-
-#advancedsearch {
-    color: black;
-    height: 48px;
-    z-index: 986;
-    float: right;
-    padding-left: 32px;
-    text-decoration: none;
-}
-
-#logo {
-    
-    height: 92px;
-    width: 272px;
- margin-top: 58px;
-    
-
-}
-
-/* #theworst {
-    
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: 350px;
-    width: 640px;
-    padding-top: 6px;
-    width: auto;
-    max-width: 584px;
-    position: relative;
-} */
-
-#indexsearchbox {
-    display: flex;
-    z-index: 3;
-    height: 44px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    border-left-width: 1px;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
-     max-width: 584px;
-   padding-left: 15px;
-    
-
-}
+/* Styles are shared amongst pages. */
 
 #searchbutton {
     background-color: #f8f9fa;
@@ -80,6 +22,81 @@
   
     
 }
+
+#indexsearchbox {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-left-width: 1px;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+     max-width: 584px;
+   padding-left: 15px;
+    
+
+}
+
+#logo {
+    
+    height: 92px;
+    width: 272px;
+ margin-top: 58px;
+    
+
+}
+
+.almostthere {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Index Specific Styling */
+
+#images {
+    color: black;
+    height: 48px;
+    z-index: 986;
+    float: right;
+    padding-left: 32px;
+    text-decoration: none;
+    
+}
+
+#advancedsearch {
+    color: black;
+    height: 48px;
+    z-index: 986;
+    float: right;
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+
+
+/* #theworst {
+    
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    width: 640px;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+} */
+
+
+
+
 
 #imfeelinglucky {
 
@@ -104,13 +121,9 @@
 }
 
 
-.almostthere {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
+
+
+/* Images Specific Styling */
 
 #imagestext {
     color: #4285f4;
@@ -124,7 +137,7 @@
 }
 
 
-
+/* Advanced Search Specific Styling */
 
 .advancedsearchinputbox {
     display: flex;
